@@ -79,9 +79,11 @@ var testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
   let total = 0;
+
   for(let i = 0; i < sumArr.length; i++){
     total += sumArr[i];
   }
+
   let outputString = `${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${total} is their sum.`;
   return [total, outputString];
 }
@@ -103,6 +105,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+  // let total = 1;
+  // for(let i = 0; i<multArr.length;i++){
+  //   total *= multArr[i];
+  // }
 
 }
 
